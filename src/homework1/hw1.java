@@ -22,7 +22,7 @@ public class hw1 {
 		//indivisible by 7 and include 7
 		System.out.println("all about 7");
 		for(int i = 1; i<=100; i++){
-			if(i%7 == 0 || i%10 == 7 || i/10 == 7){
+			if(i%7 == 0 || i%10 == 7){
 				System.out.print(i+" "); 
 			}
 		}
